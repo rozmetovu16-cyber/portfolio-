@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umrbek Rozmetov - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-text">UR</span>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                    <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                    <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                    <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+                    <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+                </ul>
+
+                <div class="nav-controls">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    
+                    <select id="languageSelect" class="language-select" aria-label="Select language">
+                        <option value="uz">O'zbek</option>
+                        <option value="en">English</option>
+                        <option value="ru">Русский</option>
+                    </select>
+
+                    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title" data-i18n="hero_title">Assalamu alaikum, men Umrbek</h1>
+                    <p class="hero-subtitle" data-i18n="hero_subtitle">Full Stack Web Developer | Creative Problem Solver</p>
+                    <p class="hero-description" data-i18n="hero_description">Men zamonaviy web saytlar va mobil ilovalar yaratishda ixtisoslashgan.</p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary" data-i18n="btn_view_work">Ishlarni ko'rish</a>
+                        <a href="#contact" class="btn btn-secondary" data-i18n="btn_contact">Bog'lanish</a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:sobirjon@example.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <img src="photo_2026-04-03_17-27-51.jpg" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about_title">Men haqimda</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-i18n="about_text1">Men Rozmetov Umrbek, 1+ yillik tajribali full stack web developer. HTML, CSS, JavaScript, va boshqa zamonaviy texnologiyalarda mutaxassis.</p>
+                    
+                    <p data-i18n="about_text2">Mening maqsadim - yuqori sifatli, foydalanuvchiga qulay va tez saytlar yaratish. Har bir loyihada creativ va professional yondashuvni qo'llaman.</p>
+                    
+                    <p data-i18n="about_text3">Responsive dizayn, performance optimization va SEO bilan tanish. Client-focused approach bilan ishlaman.</p>
+
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p data-i18n="stat_projects">Proyektlar</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p data-i18n="stat_clients">Klientlar</p>
+                        </div>
+                        <div class="stat">
+                            <h3>1+</h3>
+                            <p data-i18n="stat_experience">Yil tajriba</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-i18n="skills_title">Ko'nikmalar</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 data-i18n="frontend">Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>HTML 5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>CSS 3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-i18n="backend">Backend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Express.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>PostgreSQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 78%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-i18n="tools">Vositalar</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Figma</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>VS Code</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 98%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-i18n="projects_title">Mening Ishlarim</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder-small">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-i18n="project1_title">E-Commerce Platform</h3>
+                        <p data-i18n="project1_desc">React va Node.js da yaratilgan full stack e-commerce sayt. Payment integration, admin panel va product management system bilan.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        <a href="#" class="project-link" data-i18n="view_project">Proyektni ko'rish →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder-small">
+                            <i class="fas fa-blog"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-i18n="project2_title">Blog Platform</h3>
+                        <p data-i18n="project2_desc">Dinamik blog platformasi comment sistem, search functionality va user authentication bilan. SEO optimized.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">JWT</span>
+                        </div>
+                        <a href="#" class="project-link" data-i18n="view_project">Proyektni ko'rish →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder-small">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-i18n="project3_title">Task Manager App</h3>
+                        <p data-i18n="project3_desc">Real-time task management application. Drag-drop functionality, priority levels va deadline reminders bilan.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">CSS Grid</span>
+                        </div>
+                        <a href="#" class="project-link" data-i18n="view_project">Proyektni ko'rish →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder-small">
+                            <i class="fas fa-weather-cloud"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-i18n="project4_title">Weather App</h3>
+                        <p data-i18n="project4_desc">Real-time ob-hava ma'lumotlari bilan weather application. Location-based forecasting va interactive maps.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Weather API</span>
+                            <span class="tech-tag">Responsive</span>
+                        </div>
+                        <a href="#" class="project-link" data-i18n="view_project">Proyektni ko'rish →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder-small">
+                            <i class="fas fa-music"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-i18n="project5_title">Music Streaming</h3>
+                        <p data-i18n="project5_desc">Music streaming platform bilan playlist management, search va user recommendations.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">WebSocket</span>
+                        </div>
+                        <a href="#" class="project-link" data-i18n="view_project">Proyektni ko'rish →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder-small">
+                            <i class="fas fa-film"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-i18n="project6_title">Movie Database</h3>
+                        <p data-i18n="project6_desc">Movie database application advanced filtering bilan, reviews va rating system.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">TMDb API</span>
+                            <span class="tech-tag">Context API</span>
+                        </div>
+                        <a href="#" class="project-link" data-i18n="view_project">Proyektni ko'rish →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact_title">Bog'lanish</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-i18n="contact_subtitle">Menga xabar yuboring</h3>
+                    <p data-i18n="contact_description">Sizning proyektingiz haqida bilmoqchiman. Quyidagi ma'lumotlar orqali men bilan bog'laning.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="emailto:rozmetovu16@example.com">rozmetou16@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4 data-i18n="phone">Telefon</h4>
+                                <p><a href="tel:+998901234567">+998 95 090 32 63</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4 data-i18n="location">Manzil</h4>
+                                <p>Tashkent, Uzbekistan</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links-large">
+                        <a href="https://github.com/rozmetovu16-cyber" target="_blank" class="social-btn">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.instagram.com/umrbek_9o?igsh=MjExMDVzdHdhaThi" target="_blank" class="social-btn">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://t.me/umrbekrozmetov7" target="_blank" class="social-btn">
+                            <i class="fab fa-telegram"></i>
+                            <span>Telegram</span>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Ismingiz" class="form-input" required data-i18n-placeholder="form_name">
+                        <label data-i18n="form_name">Ismingiz</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email" class="form-input" required data-i18n-placeholder="form_email">
+                        <label data-i18n="form_email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Mavzu" class="form-input" required data-i18n-placeholder="form_subject">
+                        <label data-i18n="form_subject">Mavzu</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Xabaringiz" class="form-input form-textarea" rows="5" required data-i18n-placeholder="form_message"></textarea>
+                        <label data-i18n="form_message">Xabaringiz</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit" data-i18n="form_send">Yuborish</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p data-i18n="footer_text">&copy; 2026 Sobirjon Otajanov. Barcha huquqlar himoyalangan.</p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Privacy</a>
+                    <a href="#" class="footer-link">Terms</a>
+                    <a href="#" class="footer-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
