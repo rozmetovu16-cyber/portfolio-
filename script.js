@@ -55,7 +55,7 @@ const translations = {
         btn_view_work: "View My Work",
         btn_contact: "Get in Touch",
         about_title: "About Me",
-        about_text1: "I'm Sobirjon Otajanov, a full stack web developer with 3+ years of experience. I specialize in HTML, CSS, JavaScript, React, Node.js, MongoDB and other modern technologies.",
+        about_text1: "I'm Rozmetov Umrbek, a full stack web developer with 3+ years of experience. I specialize in HTML, CSS, JavaScript, React, Node.js, MongoDB and other modern technologies.",
         about_text2: "My goal is to create high-quality, user-friendly and fast websites. I apply a creative and professional approach to every project.",
         about_text3: "I'm familiar with responsive design, performance optimization and SEO. I work with a client-focused approach.",
         stat_projects: "Projects",
@@ -136,7 +136,7 @@ const translations = {
         form_subject: "Тема",
         form_message: "Ваше сообщение",
         form_send: "Отправить сообщение",
-        footer_text: "&copy; 2026 Собирджон Отажанов. Все права защищены.",
+        footer_text: "&copy; 2026 Умрбек Розметов. Все права защищены.",
         home: "Home",
         about: "About",
         projects: "Projects",
@@ -408,5 +408,5 @@ document.addEventListener('keydown', (e) => {
 // ========================================
 // Console Message
 // ========================================
-console.log('%cSobirjon Otajanov - Full Stack Web Developer', 'font-size: 20px; font-weight: bold; color: #6366f1;');
-console.log('%cEmail: sobirjon@example.com | Phone: +998 90 123 45 67', 'font-size: 14px; color: #666;');
+console.log('%cRozmetov Umrbek - Full Stack Web Developer', 'font-size: 20px; font-weight: bold; color: #6366f1;');
+console.log('%cEmail: rozmetovu16@gmail.com | Phone: +998 95 090 32 63', 'font-size: 14px; color: #666;');
